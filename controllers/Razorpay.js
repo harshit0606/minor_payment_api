@@ -3,7 +3,7 @@ const shortid = require('shortid');
 
 var razorpay = new Razorpay({
     key_id: 'rzp_live_9dMckzPAc6LgF6',
-    key_secret: 'nrCD2OdLc52p2yQSOakKg4z'
+    key_secret: 'nrCD2OdOLc52p2yQSOakKg4z'
 })
 
 exports.generatePay = (req, res) => {

@@ -11,7 +11,7 @@ require('dotenv').config({
 
 const app = express()
 
-const razorRouter = require('../routers/razorpay');
+const razorRouter = require('./routers/razorpay');
 const { token } = require('morgan');
 
 app.use(morgan('dev'));
